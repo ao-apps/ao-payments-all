@@ -1,4 +1,4 @@
-Convenience POM to include the credit card processing API and all connectors.
+Convenience POM to include the credit card processing API and all providers.
 
 For questions or support, please contact:
 
