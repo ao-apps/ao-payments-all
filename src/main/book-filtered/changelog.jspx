@@ -36,6 +36,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-29T18:05:01-0500"
+		dateModified="2016-11-02T01:17:32-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT')}">
@@ -50,6 +51,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 					<li>New <core:link book="/ao-oss-parent" page="/index.jspx" /> POM to simplify <code>pom.xml</code> files.</li>
 					<li>Project documentation moved to per-project book in <ao:a href="https://semanticcms.com/">SemanticCMS</ao:a> format.</li>
 					<li>Added changelog as top-level project link.</li>
+					<li>Fixed pom.xml to include correct set of packages for this "all" meta package.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
