@@ -36,12 +36,11 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>pom</packaging>
 
 	<properties>
-		<bookPath>/${project.parent.artifactId}/all</bookPath>
 		<shortTitle>All</shortTitle>
 	</properties>
 
 	<name>AO Credit Cards All</name>
-	<url>https://aoindustries.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://aoindustries.com/${project.parent.artifactId}/all/</url>
 	<description>Convenience POM to include the credit card processing API and all providers.</description>
 	<inceptionYear>2016</inceptionYear>
 
