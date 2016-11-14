@@ -26,8 +26,9 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<parent>
 		<groupId>com.aoindustries</groupId>
-		<artifactId>ao-credit-cards</artifactId>
-		<version>1.0.2-SNAPSHOT</version>
+		<artifactId>ao-oss-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.aoindustries</groupId>
@@ -35,12 +36,8 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<properties>
-		<shortTitle>All</shortTitle>
-	</properties>
-
 	<name>AO Credit Cards All</name>
-	<url>https://aoindustries.com/${project.parent.artifactId}/all/</url>
+	<url>https://aoindustries.com/ao-credit-cards/all/</url>
 	<description>Convenience POM to include the credit card processing API and all providers.</description>
 	<inceptionYear>2016</inceptionYear>
 
