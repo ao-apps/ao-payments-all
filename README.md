@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [AO Credit Cards](https://aoindustries.com/ao-credit-cards/) / [All](https://aoindustries.com/ao-credit-cards/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [AO Credit Cards](https://github.com/aoindustries/ao-credit-cards) / [All](https://github.com/aoindustries/ao-credit-cards-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://aoindustries.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -30,13 +30,13 @@ Convenience POM to include the credit card processing API and all providers.
 * [GitHub](https://github.com/aoindustries/ao-credit-cards-all)
 
 ## Modules Included
-* [AO Credit Cards API](https://aoindustries.com/ao-credit-cards/api/)
-* [AO Credit Cards Authorize.Net](https://aoindustries.com/ao-credit-cards/authorizeNet/)
-* [AO Credit Cards Payflow Pro XMLPay](https://aoindustries.com/ao-credit-cards/payflowPro/)
-* [AO Credit Cards Sage Payment Solutions](https://aoindustries.com/ao-credit-cards/sagePayments/)
-* [AO Credit Cards Stripe](https://aoindustries.com/ao-credit-cards/stripe/)
-* [AO Credit Cards Test](https://aoindustries.com/ao-credit-cards/test/)
-* [AO Credit Cards USAePay](https://aoindustries.com/ao-credit-cards/usaepay/)
+* [AO Credit Cards API](https://github.com/aoindustries/ao-credit-cards-api)
+* [AO Credit Cards Authorize.Net](https://github.com/aoindustries/ao-credit-cards-authorizeNet)
+* [AO Credit Cards Payflow Pro XMLPay](https://github.com/aoindustries/ao-credit-cards-payflowPro)
+* [AO Credit Cards Sage Payment Solutions](https://github.com/aoindustries/ao-credit-cards-sagePayments)
+* [AO Credit Cards Stripe](https://github.com/aoindustries/ao-credit-cards-stripe)
+* [AO Credit Cards Test](https://github.com/aoindustries/ao-credit-cards-test)
+* [AO Credit Cards USAePay](https://github.com/aoindustries/ao-credit-cards-usaepay)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
