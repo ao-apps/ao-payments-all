@@ -29,7 +29,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-all</artifactId><version>1.0.4-validation-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-all</artifactId><version>1.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>AO Credit Cards All</name>
@@ -50,7 +50,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 			<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-api</artifactId><version>1.0.4-validation-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-authorizeNet</artifactId><version>1.0.4-validation-SNAPSHOT</version>
+			<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-authorizeNet</artifactId><version>1.0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-payflowPro</artifactId><version>1.0.4-validation-SNAPSHOT</version>
