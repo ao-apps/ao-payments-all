@@ -32,13 +32,6 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 	<groupId>com.aoindustries</groupId><artifactId>ao-credit-cards-all</artifactId><version>1.1.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<properties>
-		<javaVersion>1.8</javaVersion>
-		<compiler.bootclasspath>${bootclasspath.jdk8}</compiler.bootclasspath>
-		<javac.bootclasspath>${bootclasspath.jdk8}</javac.bootclasspath>
-		<javac.link.javaApi>${javac.link.javaApi.jdk8}</javac.link.javaApi>
-	</properties>
-
 	<name>AO Credit Cards All</name>
 	<url>https://aoindustries.com/ao-credit-cards/all/</url>
 	<description>Convenience POM to include the credit card processing API and all providers.</description>
