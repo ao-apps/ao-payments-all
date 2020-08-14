@@ -108,7 +108,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>commons-logging</groupId><artifactId>commons-logging</artifactId><version>1.2</version>
 			</dependency>
 			<dependency>
-				<groupId>commons-validator</groupId><artifactId>commons-validator</artifactId><version>1.6</version>
+				<groupId>commons-validator</groupId><artifactId>commons-validator</artifactId><version>1.7</version>
 			</dependency>
 			<dependency>
 				<groupId>com.paypal</groupId><artifactId>payflow</artifactId><version>v440</version>
