@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-credit-cards-all - Convenience POM to include the credit card processing API and all providers.
-Copyright (C) 2016, 2017, 2018, 2019, 2020  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -122,7 +122,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.paypal</groupId><artifactId>payflow</artifactId><version>v440</version>
 			</dependency>
 			<dependency>
-				<groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>20.32.0</version>
+				<groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>20.33.0</version>
 			</dependency>
 			<!-- Runtime Transitive -->
 			<dependency>
