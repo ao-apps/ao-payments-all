@@ -35,7 +35,7 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-16T21:44:00-05:00"
-		dateModified="2020-03-24T14:01:33-05:00"
+		dateModified="2021-05-27T21:59:03-05:00"
 	>
 		<core:child page="changelog.jspx" />
 		<header>
@@ -65,7 +65,6 @@ along with ao-credit-cards-all.  If not, see <http://www.gnu.org/licenses />.
 				<li><core:link book="/ao-credit-cards/api" page="/index.jspx" /></li>
 				<li><core:link book="/ao-credit-cards/authorizeNet" page="/index.jspx" /></li>
 				<li><core:link book="/ao-credit-cards/payflowPro" page="/index.jspx" /></li>
-				<li><core:link book="/ao-credit-cards/sagePayments" page="/index.jspx" /></li>
 				<li><core:link book="/ao-credit-cards/stripe" page="/index.jspx" /></li>
 				<li><core:link book="/ao-credit-cards/test" page="/index.jspx" /></li>
 				<li><core:link book="/ao-credit-cards/usaepay" page="/index.jspx" /></li>
