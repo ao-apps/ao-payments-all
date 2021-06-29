@@ -30,7 +30,11 @@ along with ao-payments-all.  If not, see <http://www.gnu.org/licenses />.
 	</parent>
 
 	<groupId>com.aoapps</groupId><artifactId>ao-payments-all</artifactId><version>2.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<module.name>com.aoapps.payments.all</module.name>
+	</properties>
 
 	<name>AO Payments All</name>
 	<url>https://oss.aoapps.com/payments/all/</url>
@@ -71,6 +75,29 @@ along with ao-payments-all.  If not, see <http://www.gnu.org/licenses />.
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/ao-payments-all/issues</url>
 	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<usedDependencies>
+						<!-- Direct -->
+						<dependency>com.aoapps:ao-payments-authorizeNet</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-payments-payflowPro</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-payments-stripe</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-payments-test</dependency><!-- Required for module-info.java -->
+						<dependency>com.aoapps:ao-payments-usaepay</dependency><!-- Required for module-info.java -->
+					</usedDependencies>
+					<ignoredDependencies>
+						<!-- No "module-info.java" in some release builds -->
+						<dependency>com.aoapps:ao-collections</dependency>
+						<dependency>com.aoapps:ao-payments-api</dependency>
+					</ignoredDependencies>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencyManagement>
 		<dependencies>
