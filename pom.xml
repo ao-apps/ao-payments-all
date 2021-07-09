@@ -89,6 +89,11 @@ along with ao-payments-all.  If not, see <http://www.gnu.org/licenses />.
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<!-- See http://stackoverflow.com/questions/1164043/maven-how-to-include-jars-which-are-not-available-in-reps-into-a-j2ee-project -->
+		<repository>
+			<id>project-repository</id>
+			<url>file://${project.basedir}/repository</url>
+		</repository>
 	</repositories>
 
 	<build>
@@ -161,6 +166,9 @@ along with ao-payments-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>commons-validator</groupId><artifactId>commons-validator</artifactId><version>1.7</version>
 			</dependency>
 			<dependency>
+				<!-- See https://developer.paypal.com/docs/classic/api/nvpsoap-sdks/ -->
+				<!-- See https://github.com/paypal/sdk-packages/tree/gh-pages/paypal-payments-pro-payflow-edition -->
+				<!-- Installed with mvn install:install-file -Dfile=payflow-v440.jar -DgroupId=com.paypal -DartifactId=payflow -Dversion=v440 -Dpackaging=jar -DlocalRepositoryPath=repository -->
 				<groupId>com.paypal</groupId><artifactId>payflow</artifactId><version>v440</version>
 			</dependency>
 			<dependency>

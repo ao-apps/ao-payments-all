@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.paypal</groupId>
+  <artifactId>payflow</artifactId>
+  <versioning>
+    <release>v440</release>
+    <versions>
+      <version>v440</version>
+    </versions>
+    <lastUpdated>20161006164540</lastUpdated>
+  </versioning>
+</metadata>
