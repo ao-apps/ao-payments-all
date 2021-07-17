@@ -181,7 +181,7 @@ along with ao-payments-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.paypal</groupId><artifactId>payflow</artifactId><version>v440</version>
 			</dependency>
 			<dependency>
-				<groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>20.63.1</version>
+				<groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>20.64.0</version>
 			</dependency>
 			<!-- Runtime Transitive -->
 			<dependency>
