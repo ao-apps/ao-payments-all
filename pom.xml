@@ -94,6 +94,9 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
 			<releases>
 				<enabled>false</enabled>
 			</releases>
+			<snapshots>
+				<checksumPolicy>fail</checksumPolicy>
+			</snapshots>
 		</repository>
 		<!-- See http://stackoverflow.com/questions/1164043/maven-how-to-include-jars-which-are-not-available-in-reps-into-a-j2ee-project -->
 		<repository>
@@ -101,10 +104,10 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
 			<url>file://${project.basedir}/repository</url>
 			<releases>
 				<updatePolicy>never</updatePolicy>
+				<checksumPolicy>fail</checksumPolicy>
 			</releases>
 			<snapshots>
 				<enabled>false</enabled>
-				<updatePolicy>daily</updatePolicy>
 			</snapshots>
 		</repository>
 	</repositories>
