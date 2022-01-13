@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 ao-payments-all - Convenience POM to include the payment processing API and all providers.
-Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -194,7 +194,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.paypal</groupId><artifactId>payflow</artifactId><version>v440</version>
 			</dependency>
 			<dependency>
-				<groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>20.94.0</version>
+				<groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>20.95.0</version>
 			</dependency>
 			<!-- Runtime Transitive -->
 			<dependency>
