@@ -28,4 +28,4 @@ module com.aoapps.payments.all {
   requires transitive com.aoapps.payments.stripe; // <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId>
   requires transitive com.aoapps.payments.test; // <groupId>com.aoapps</groupId><artifactId>ao-payments-test</artifactId>
   requires transitive com.aoapps.payments.usaepay; // <groupId>com.aoapps</groupId><artifactId>ao-payments-usaepay</artifactId>
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
