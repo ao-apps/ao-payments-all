@@ -34,5 +34,10 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
         <ignoreVersion type="regex">[0-9]{8}.*</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="com.stripe" artifactId="stripe-java" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-beta\.[0-9]+</ignoreVersion>
+      </ignoreVersions>
+    </rule>
   </rules>
 </ruleset>
