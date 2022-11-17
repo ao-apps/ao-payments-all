@@ -29,7 +29,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>ao-payments-all</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+  <groupId>com.aoapps</groupId><artifactId>ao-payments-all</artifactId><version>2.1.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <properties>
@@ -154,7 +154,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.aoapps</groupId><artifactId>ao-payments-payflowPro</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId><version>2.1.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-payments-test</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
@@ -194,7 +194,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.paypal</groupId><artifactId>payflow</artifactId><version>v440</version>
       </dependency>
       <dependency>
-        <groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>21.15.0</version>
+        <groupId>com.stripe</groupId><artifactId>stripe-java</artifactId><version>22.0.0</version>
       </dependency>
       <!-- Runtime Transitive -->
       <dependency>
