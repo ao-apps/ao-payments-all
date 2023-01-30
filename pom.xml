@@ -124,17 +124,17 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.aoapps:ao-payments-authorizeNet</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-payments-payflowPro</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-payments-stripe</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-payments-test</dependency><!-- Required for module-info.java -->
-            <dependency>com.aoapps:ao-payments-usaepay</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.aoapps:ao-payments-api</dependency>
+            <dependency>com.aoapps:ao-payments-authorizeNet</dependency>
+            <dependency>com.aoapps:ao-payments-payflowPro</dependency>
+            <dependency>com.aoapps:ao-payments-stripe</dependency>
+            <dependency>com.aoapps:ao-payments-test</dependency>
+            <dependency>com.aoapps:ao-payments-usaepay</dependency>
           </usedDependencies>
           <ignoredDependencies>
             <!-- No "module-info.java" in some release builds -->
             <dependency>com.aoapps:ao-collections</dependency>
-            <dependency>com.aoapps:ao-payments-api</dependency>
           </ignoredDependencies>
         </configuration>
       </plugin>
