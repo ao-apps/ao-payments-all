@@ -25,7 +25,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.21.0-POST-SNAPSHOT</version>
+    <groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.21.0<!-- -POST-SNAPSHOT --></version>
     <relativePath>../../parent/pom.xml</relativePath>
   </parent>
 
@@ -146,29 +146,29 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
     <dependencies>
       <!-- Direct -->
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-api</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-api</artifactId><version>3.0.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-authorizeNet</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-authorizeNet</artifactId><version>2.0.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-payflowPro</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-payflowPro</artifactId><version>2.0.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId><version>2.1.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId><version>2.1.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-test</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-test</artifactId><version>2.0.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-usaepay</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-usaepay</artifactId><version>2.0.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <!-- Transitive -->
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>3.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>3.0.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.3.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.3.0<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>commons-beanutils</groupId><artifactId>commons-beanutils</artifactId><version>1.9.4</version>
