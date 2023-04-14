@@ -20,7 +20,7 @@ Convenience POM to include the payment processing API and all providers.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/payments/all/)
 * [Changelog](https://oss.aoapps.com/payments/all/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Aao-payments-all)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/ao-payments-all)
 * [GitHub](https://github.com/ao-apps/ao-payments-all)
 
 ## Modules Included
