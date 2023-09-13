@@ -29,7 +29,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>ao-payments-all</artifactId><version>3.0.0-POST-SNAPSHOT</version>
+  <groupId>com.aoapps</groupId><artifactId>ao-payments-all</artifactId><version>3.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -150,7 +150,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.aoapps</groupId><artifactId>ao-payments-payflowPro</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId><version>2.1.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-payments-stripe</artifactId><version>3.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-payments-test</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
