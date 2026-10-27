@@ -152,6 +152,7 @@ along with ao-payments-all.  If not, see <https://www.gnu.org/licenses/>.
                   payflow-v440.jar
                 -->
                 <Automatic-Module-Name>${module.name}</Automatic-Module-Name>
+                <Include-Resource>{maven-resources}</Include-Resource>
                 <Private-Package>!.</Private-Package>
               </instructions>
             </configuration>
